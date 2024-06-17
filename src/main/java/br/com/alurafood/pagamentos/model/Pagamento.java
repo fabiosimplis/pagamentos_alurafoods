@@ -22,7 +22,7 @@ public class Pagamento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NonNull
+    @NotNull
     @Positive
     private BigDecimal valor;
     @NotBlank
