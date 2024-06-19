@@ -4,5 +4,6 @@ public enum Status {
 
     CRIADO,
     CONFIRMADO,
+    CONFIRMADO_OFFLINE,
     CANCELADO
 }
